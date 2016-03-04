@@ -8,5 +8,4 @@ components:
 
     # The SDK version used to compile your project
     - android-23
-
     - sys-img-armeabi-v7a-android-23
