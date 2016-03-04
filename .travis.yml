@@ -1,7 +1,12 @@
-language: java	
-jdk:
-  - oraclejdk8
-  - oraclejdk7
-  - openjdk6
-env:
-  - TERM=dumb
+language: android	
+components:
+    - platform-tools
+    - tools
+
+    # The BuildTools version used by your project
+    - build-tools-23.0.2
+
+    # The SDK version used to compile your project
+    - android-23
+
+    - sys-img-armeabi-v7a-android-23
